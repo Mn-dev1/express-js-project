@@ -1,0 +1,25 @@
+<div class="row my-4">
+    <div class="col-md-12">
+        <div class="card shadow-sm rounded-0">
+            <table class="'table">
+                <thead>
+                    <tr>
+                        <th>nom & prenom</th>
+                        <th>Tel</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each contacts}}
+                    <tr>
+                        <td scope="'row">{{name}}</td>
+                        
+                        <td>{{phone}}</td>
+                        <td></td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
